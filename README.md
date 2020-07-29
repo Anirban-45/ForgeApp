@@ -15,6 +15,7 @@ Electron.js can be installed by an npm package
 * Type `npm run start` or `npm start` to execute the App
 
 [N.B.] : The `In-progress` branch is accessible to all. And all the merges Should be done in that branch in order to get rid of any kind of mismanagement.
+All other necessary descriptions of the project can be found at [ForgeApp/package.json](./package.json)
 
 ###### @https://github.com/mahirashrafemad
 ###### @https://github.com/RaihanEvan
