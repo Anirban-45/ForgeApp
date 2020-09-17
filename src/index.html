@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>ForgeApp</title>
     <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-
-    <h1>Welcome to ForgeApp</h1>
-    <hr>
-    <p>Forgeapp is a free menaing platform binding software where you can get all your messages together</p>
-    <div class="navbar">
-      <h3>MENU</h3>
-      <ul>
-        <li><a href="index.html" class="navbar__item">Home</a></li>
-        <li><a href="#" class="navbar__item">Chats</a></li>
-        <li><a href="#" class="navbar__item">Settings</a></li>
-      </ul>
+    <script>
+    function togglenav() {
+        document.getElementById("navbar").classList.toggle("active");
+    }
+    </script>
+</head>
+<body>
+    <div id="navbar">
+        <div class="toggle_button" onclick="togglenav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h3>MENU</h3>
+        <ul>
+            <li><a href="index.html" class="navbar__item">Home</a></li>
+            <li><a href="chats.html" class="navbar__item">Chats</a></li>
+            <li><a href="#" class="navbar__item">Settings</a></li>
+        </ul>
     </div>
-  </body>
-  <script>
-    require('./renderer.js;');
-  </script>
+    <div ID="content">
+        <h1>Welcome to ForgeApp</h1>
+        <hr>
+        <p>Forgeapp is a free messaging platform binding software where you can get all your messages together</p>
+    </div>
+</body>
+<script>
+require('./renderer.js;');
+</script>
 </html>

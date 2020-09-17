@@ -13,8 +13,6 @@
   },
   "keywords": [],
   "author": {
-    "name": "Mahir Ashraf Emad",
-    "name": "H.M Raihan Evan",
     "name": "Anirban Tasfin Azad",
     "email": "47144252+Anirban-45@users.noreply.github.com"
   },
@@ -47,7 +45,8 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "googleapis": "^39.2.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.52",

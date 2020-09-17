@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="chats.css">
+	<script>
+	function togglenav() {
+		document.getElementById("navbar").classList.toggle("active");
+	}
+	</script>
+</head>
+<body>
+	<div id="navbar">
+		<div class="toggle_button" onclick="togglenav()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<h3>MENU</h3>
+		<ul>
+			<li><a href="index.html" class="navbar__item">Home</a></li>
+			<li><a href="chats.html" class="navbar__item">Chats</a></li>
+			<li><a href="#" class="navbar__item">Settings</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<h2>Choose the services that you want to connect with :</h2>
+		<div class="boxx">
+			<a href="https://gmail.com" class="bb" style="flex-basis: 200px">
+				<div class=""><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"/></div>
+				<div style="align-self: center"><b> Gmail </b></div>
+			</a>
+			<a href="https://www.messenger.com/" class="bb" style="flex-basis: 200px">
+				<div><img src="https://img.icons8.com/plasticine/100/000000/facebook-messenger.png"/></div>
+				<div style="align-self: center"><b>Messenger</b></div>
+			</a>
+		</div>
+		<div class="boxx">
+			<a href="https://web.whatsapp.com/" class="bb" style="flex-basis: 200px">
+				<div class=""><img src="https://img.icons8.com/plasticine/100/000000/whatsapp.png"/></div>
+				<div style="align-self: center"><b>WhasApp</b></div>
+			</a>
+			<a href="https://discordapp.com/login" class="bb" style="flex-basis: 200px">
+				<div class=""><img src="https://img.icons8.com/plasticine/100/000000/discord-logo.png"/></div>
+				<div style="align-self: center"><b> Discord </b></div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
